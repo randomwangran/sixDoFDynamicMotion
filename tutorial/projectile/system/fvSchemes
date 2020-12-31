@@ -63,8 +63,8 @@ snGradSchemes
 }
 oversetInterpolation
 {
-	//method          inverseDistance;
-    method          trackingInverseDistance;
+	method          inverseDistance;
+    //method          trackingInverseDistance;
 
     // The inverseDistance method uses a 'voxel' like search structure.
     // Optionally specify the extent and number of divisions n.
